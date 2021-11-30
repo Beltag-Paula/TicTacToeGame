@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class Main2MinMaxAlgorithm {
 
 	static ArrayList<Integer> playerPositions = new ArrayList<Integer>();
 	static ArrayList<Integer> computerPositions = new ArrayList<Integer>();
