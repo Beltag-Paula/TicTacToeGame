@@ -1,5 +1,5 @@
 # TicTacToeGame
-A simple tic tac toe game that you can play between the computer in the command prompt / console of IDE.
+A simple tic tac toe game that you can play with the computer in the command prompt / console of IDE.
 The user is X and the computer O.
 There are 3 versions of Main :
 - the first commited Main used Random method for the computer to set a random position that was not yet
