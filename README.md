@@ -9,7 +9,7 @@ taken.
 the gamePlay() method.
 
 
-Documentation for Tic Tac Toe Game Code
+Explanation : 
 1 Main.java Overview
 
 This code implements a command-line version of the classic game "Tic Tac Toe." The game is designed for two players, one being the user (player) and the other controlled by the computer. The players take turns placing their symbols ('X' for the player and 'O' for the computer) on a 3x3 game board until there is a winner or a tie.
@@ -58,4 +58,4 @@ Cons
 
 Conclusion
 
-The Tic Tac Toe game code provided above serves as a simple and functional implementation of the classic game. While it demonstrates fundamental programming concepts and logic, it may require further enhancements to provide a more engaging and customizable gaming experience. Introducing features such as a graphical user interface, better AI strategies, adjustable board sizes, and multiplayer support could make it a more versatile and enjoyable game.
+   The Tic Tac Toe game code provided above serves as a simple and functional implementation of the classic game. While it demonstrates fundamental programming concepts and logic, it may require further enhancements to provide a more engaging and customizable gaming experience. Introducing features such as a graphical user interface, better AI strategies, adjustable board sizes, and multiplayer support could make it a more versatile and enjoyable game.
