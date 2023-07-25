@@ -3,15 +3,15 @@
 A simple tic tac toe game that you can play with the computer in the command prompt / console of IDE.
 The user is X and the computer O.
 There are 3 versions of Main :
-- the first commited Main used Random method for the computer to set a random position that was not yet
+- the first commited [Main](https://github.com/Beltag-Paula/TicTacToeGame/blob/main/TicTacToe/src/Main.java) used Random method for the computer to set a random position that was not yet
 taken.
-- the second Main instead of Random method, the computer calculates the best position using MinMaxAlgorithm
-- in the third Main is fixed the game where it is a tie, using a counter to get out of the while loop from
+- the second [Main](https://github.com/Beltag-Paula/TicTacToeGame/blob/main/TicTacToe/src/Main2MinMaxAlgorithm.java) instead of Random method, the computer calculates the best position using MinMaxAlgorithm
+- in the third [Main](https://github.com/Beltag-Paula/TicTacToeGame/blob/main/TicTacToe/src/MainMinMax2ver2.java) is fixed the game where it is a tie, using a counter to get out of the while loop from
 the gamePlay() method.
 
 ## Versions:
 
-### 1. Main.java
+### 1. [Main.java](https://github.com/Beltag-Paula/TicTacToeGame/blob/main/TicTacToe/src/Main.java)
 
 #### Overview
 This code implements a command-line version of the classic game "Tic Tac Toe." The game is designed for two players, one being the user (player) and the other controlled by the computer. The players take turns placing their symbols ('X' for the player and 'O' for the computer) on a 3x3 game board until there is a winner or a tie.
@@ -59,7 +59,7 @@ This code implements a command-line version of the classic game "Tic Tac Toe." T
 
 - Single-Player Only: The game is limited to a player-versus-computer setup, and there is no option for two human players to play against each other.
 
-### 2. Main2MinMaxAlgorithm.java
+### 2. [Main2MinMaxAlgorithm.java](https://github.com/Beltag-Paula/TicTacToeGame/blob/main/TicTacToe/src/Main2MinMaxAlgorithm.java)
 
 #### Overview
 This is the second version of the Tic Tac Toe game code. Similar to the first version, it provides a command-line implementation of the game, where the player competes against the computer. However, this version utilizes the Minimax algorithm to make the computer's moves more strategic and difficult to predict.
@@ -111,7 +111,7 @@ This is the second version of the Tic Tac Toe game code. Similar to the first ve
 
 - Limited Customization: Like the first version, this version also lacks configurability options, such as changing symbols or board size.
 
-### 3. MainMinMax2ver2.java
+### 3. [MainMinMax2ver2.java](https://github.com/Beltag-Paula/TicTacToeGame/blob/main/TicTacToe/src/MainMinMax2ver2.java)
 
 #### Overview
 This is the third version of the Tic Tac Toe game code. It builds upon the second version by introducing a modification to the game flow. Instead of allowing the player to fill all the positions on the board, the player and computer are limited to placing a fixed number of symbols (X and O) on the board. The code now exits the game loop after the player and computer have placed their respective symbols a certain number of times.
