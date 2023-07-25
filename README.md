@@ -59,3 +59,59 @@ Cons
 Conclusion
 
    The Tic Tac Toe game code provided above serves as a simple and functional implementation of the classic game. While it demonstrates fundamental programming concepts and logic, it may require further enhancements to provide a more engaging and customizable gaming experience. Introducing features such as a graphical user interface, better AI strategies, adjustable board sizes, and multiplayer support could make it a more versatile and enjoyable game.
+
+
+
+
+2 Main2MinMaxAlgorithm.java Overview
+This is the second version of the Tic Tac Toe game code. Similar to the first version, it provides a command-line implementation of the game, where the player competes against the computer. However, this version utilizes the Minimax algorithm to make the computer's moves more strategic and difficult to predict.
+Code Structure
+
+    Import Statements: The code includes the same import statements as the first version to bring in necessary classes from the java.util package.
+
+    Global Variables: The program has the same global variables as the first version:
+        playerPositions: An ArrayList to store positions chosen by the player.
+        computerPositions: An ArrayList to store positions chosen by the computer.
+        gameOver: A boolean variable to track whether the game is over or still in progress.
+
+    printGameBoard Method: This method is responsible for printing the current state of the game board on the console, just like in the first version.
+
+    placePosition Method: This method is used to place a symbol ('X' or 'O') on the game board at the specified position, as in the first version.
+
+    checkWinner Method: This method is also the same as in the first version and checks for a winner or a tie condition in the current game state.
+
+    Minimax Algorithm:
+        The second version introduces the Minimax algorithm to enhance the computer's moves.
+        The Minimax algorithm is a recursive search algorithm used to determine the best possible move for the computer in a two-player, zero-sum game (like Tic Tac Toe).
+        The algorithm explores all possible moves and assigns scores to each possible outcome (win, lose, or draw).
+        Based on these scores, the computer selects the best move that maximizes its chances of winning or minimizing the player's chances of winning.
+
+    isMovesLeft Method: This method checks whether there are any empty positions left on the game board.
+
+    evaluate Method: This method evaluates the game board and returns a score based on the winning conditions.
+
+    minimax Method: The core of the Minimax algorithm, this method recursively evaluates all possible moves and returns the best possible score for the current player.
+
+    findBestMove Method: This method utilizes the Minimax algorithm to find the best possible move for the computer. It returns the position (1 to 9) where the computer should place its symbol.
+
+Pros
+
+    Strategic Computer Moves: The introduction of the Minimax algorithm makes the computer's moves more strategic, providing a challenging experience for the player.
+
+    Strong AI: The computer's moves are no longer random but instead calculated to maximize its chances of winning or forcing a draw.
+
+    More Challenging Gameplay: The improved computer AI can lead to longer and more engaging gameplay sessions.
+
+    Unpredictable Computer Behavior: The computer's moves are no longer easily predictable, adding an element of surprise to the game.
+
+    Same Simplicity and Modularity: The structure of the code remains simple and modular, making it easy to understand and maintain.
+
+Cons
+
+    Command-Line Interface: The game still lacks a graphical user interface, which may limit its appeal to players who prefer visually appealing games.
+
+    Limited Customization: Like the first version, this version also lacks configurability options, such as changing symbols or board size.
+
+Conclusion
+
+The second version of the Tic Tac Toe game code presents an improved experience over the first version by introducing the Minimax algorithm to control the computer's moves. This version offers stronger AI, providing a more challenging gameplay experience for the player. However, it still retains the limitations of a command-line interface and lack of customization options. Overall, this version demonstrates the application of a strategic algorithm to enhance a simple game and provides a good foundation for further development into a more sophisticated and user-friendly Tic Tac Toe game.
